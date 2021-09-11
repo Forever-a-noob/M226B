@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Polymorphism_Interfaces.Classes.BaseModel">
+    <Position X="9" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Classes\BaseModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Polymorphism_Interfaces.Classes.Car">
+    <Position X="10.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Classes\Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Polymorphism_Interfaces.Classes.CarType">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\CarType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Polymorphism_Interfaces.Classes.Customer">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Polymorphism_Interfaces.Classes.Employee">
+    <Position X="3.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Polymorphism_Interfaces.Classes.Location">
+    <Position X="9" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAkgQAAAAEQAQACAAAAACAAEAQAAABAAI=</HashCode>
+      <FileName>Classes\Location.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Polymorphism_Interfaces.Classes.Person">
+    <Position X="3" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAEAAEAAAAAAQCAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Classes\Person.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Polymorphism_Interfaces.Classes.SalesManager">
+    <Position X="5.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAEAAAQAAAAAAAAAAAAIAAAAAAAAIA=</HashCode>
+      <FileName>Classes\SalesManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Polymorphism_Interfaces.Classes.Truck">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Truck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Polymorphism_Interfaces.Classes.Vehicle">
+    <Position X="12.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAIEQAQAAAAAgAAAAEACCIABAAA=</HashCode>
+      <FileName>Classes\Vehicle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Polymorphism_Interfaces.IBaseModel">
+    <Position X="17.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IBaseModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Polymorphism_Interfaces.ICarType">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICarType.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Polymorphism_Interfaces.ILocation">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Interfaces\ILocation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Polymorphism_Interfaces.IManageableEntity">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAEQAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IManageableEntity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
