@@ -11,14 +11,8 @@ namespace Polymorphism_Interfaces
         public List<object> Children { get; set; }
         public object Parent { get; set; }
 
-        public void AddChild(object child)
-        {
-            Children.Add(child);
-        }
+        public void AddChild(object child);
 
-        public void SetParent(object parent)
-        {
-            Parent = parent;
-        }
+        public void SetParent(object parent);
     }
 }
