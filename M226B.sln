@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Streams", "Streams\Streams.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Files", "Files\Files.csproj", "{96B0BCCB-93A0-40A2-9176-53A0105F9E57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism_Interfaces", "Polymorphism_Interfaces\Polymorphism_Interfaces.csproj", "{89B3DA10-3862-4544-80A1-5553D1109C05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism_Interfaces", "Polymorphism_Interfaces\Polymorphism_Interfaces.csproj", "{89B3DA10-3862-4544-80A1-5553D1109C05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autovermietung", "Autovermietung\Autovermietung.csproj", "{1009A3EF-2C8A-49ED-B221-34AD9E75765E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{89B3DA10-3862-4544-80A1-5553D1109C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89B3DA10-3862-4544-80A1-5553D1109C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89B3DA10-3862-4544-80A1-5553D1109C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1009A3EF-2C8A-49ED-B221-34AD9E75765E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1009A3EF-2C8A-49ED-B221-34AD9E75765E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1009A3EF-2C8A-49ED-B221-34AD9E75765E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1009A3EF-2C8A-49ED-B221-34AD9E75765E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

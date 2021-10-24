@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x6gR5+MgEHIm2O8hIHbQOulKmEavK+ZvVTd95Bu2YU6zSElW2ElDR6JKGNnKamPNAaC3vyOZueeMnExgXipPlg==",
+  "dgSpecHash": "OemC0EzJvmXu1uGarqgwUrE/wlo+3BNaJ3s0zJRn/jUa422kYSvxQ9wqUOXCbvb81hy/LrhqcGXdFzLvNB10OQ==",
   "success": true,
-  "projectFilePath": "C:\\repo\\M226B\\Streams\\Streams.csproj",
+  "projectFilePath": "C:\\repos\\M226B\\Streams\\Streams.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
