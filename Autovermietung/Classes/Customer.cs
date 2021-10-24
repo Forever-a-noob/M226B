@@ -13,6 +13,9 @@ namespace Autovermietung.Classes
         public Employee ConsultingEmployee { get; set; }
         public Store CurrentStore { get; set; }
         public VehicleTypeEnum SelectedVehicleType { get; set; }
+        public int RentalDuration { get; set; }
+
+        private List<Vehicle> vehicleList;
 
         public void EnterStore(Store store)
         {
@@ -32,11 +35,12 @@ namespace Autovermietung.Classes
         public void ChooseVehicleType(VehicleTypeEnum vehicleType)
         {
             SelectedVehicleType = vehicleType;
+            vehicleList = ConsultingEmployee.GetAvailableVehiclesByType(vehicleType);
         }
 
-        public void RequestAvailableVehicles()
+        public void ChooseVehicle()
         {
-            ConsultingEmployee.GetAvailableVehiclesByType(SelectedVehicleType);
+
         }
     }
 }

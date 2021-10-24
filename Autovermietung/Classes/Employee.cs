@@ -12,7 +12,7 @@ namespace Autovermietung.Classes
     {
         public bool IsAvailable { get; set; }
 
-        public List<Vehicle> GetAvailableVehiclesByType(VehicleTypeEnum)
+        public List<Vehicle> GetAvailableVehiclesByType(int VehicleTypeEnum)
         {
             List<Vehicle> availableVehicles = new List<Vehicle>();
 
