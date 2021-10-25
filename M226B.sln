@@ -21,6 +21,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HZ3", "HZ3", "{085E5256-F4C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HZ4", "HZ4", "{C91DF4A3-6CBD-4E0A-853E-E81766ECDFC8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K1", "K1", "{33140A4E-CEC7-454C-AA99-B86D0B381263}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Users\fluri\Downloads\MicrosoftTeams-image (1).png = ..\..\Users\fluri\Downloads\MicrosoftTeams-image (1).png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K2", "K2", "{CCC30165-C891-4F76-9874-5B32C5219553}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Users\fluri\Downloads\MicrosoftTeams-image (2).png = ..\..\Users\fluri\Downloads\MicrosoftTeams-image (2).png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +62,8 @@ Global
 		{80063D33-F33B-4F5D-A396-865290F984D0} = {254B1B3F-BC65-47ED-8FC3-76D5513E694E}
 		{085E5256-F4CA-4F73-A071-46ACF36652BF} = {254B1B3F-BC65-47ED-8FC3-76D5513E694E}
 		{C91DF4A3-6CBD-4E0A-853E-E81766ECDFC8} = {254B1B3F-BC65-47ED-8FC3-76D5513E694E}
+		{33140A4E-CEC7-454C-AA99-B86D0B381263} = {80063D33-F33B-4F5D-A396-865290F984D0}
+		{CCC30165-C891-4F76-9874-5B32C5219553} = {80063D33-F33B-4F5D-A396-865290F984D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A88BB3E7-7642-440F-9608-BF73364E9DFB}
