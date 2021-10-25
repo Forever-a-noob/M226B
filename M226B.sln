@@ -9,7 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Files", "Files\Files.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism_Interfaces", "Polymorphism_Interfaces\Polymorphism_Interfaces.csproj", "{89B3DA10-3862-4544-80A1-5553D1109C05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autovermietung", "Autovermietung\Autovermietung.csproj", "{1009A3EF-2C8A-49ED-B221-34AD9E75765E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autovermietung", "Autovermietung\Autovermietung.csproj", "{1009A3EF-2C8A-49ED-B221-34AD9E75765E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kompetenzen", "Kompetenzen", "{254B1B3F-BC65-47ED-8FC3-76D5513E694E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HZ1", "HZ1", "{D69DD5C0-D218-4C6A-AC75-0F43333F1B95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HZ2", "HZ2", "{80063D33-F33B-4F5D-A396-865290F984D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HZ3", "HZ3", "{085E5256-F4CA-4F73-A071-46ACF36652BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HZ4", "HZ4", "{C91DF4A3-6CBD-4E0A-853E-E81766ECDFC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +46,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D69DD5C0-D218-4C6A-AC75-0F43333F1B95} = {254B1B3F-BC65-47ED-8FC3-76D5513E694E}
+		{80063D33-F33B-4F5D-A396-865290F984D0} = {254B1B3F-BC65-47ED-8FC3-76D5513E694E}
+		{085E5256-F4CA-4F73-A071-46ACF36652BF} = {254B1B3F-BC65-47ED-8FC3-76D5513E694E}
+		{C91DF4A3-6CBD-4E0A-853E-E81766ECDFC8} = {254B1B3F-BC65-47ED-8FC3-76D5513E694E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A88BB3E7-7642-440F-9608-BF73364E9DFB}
