@@ -11,25 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism_Interfaces", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autovermietung", "Autovermietung\Autovermietung.csproj", "{1009A3EF-2C8A-49ED-B221-34AD9E75765E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kompetenzen", "Kompetenzen", "{254B1B3F-BC65-47ED-8FC3-76D5513E694E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HZ1", "HZ1", "{D69DD5C0-D218-4C6A-AC75-0F43333F1B95}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HZ2", "HZ2", "{80063D33-F33B-4F5D-A396-865290F984D0}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HZ3", "HZ3", "{085E5256-F4CA-4F73-A071-46ACF36652BF}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HZ4", "HZ4", "{C91DF4A3-6CBD-4E0A-853E-E81766ECDFC8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K1", "K1", "{33140A4E-CEC7-454C-AA99-B86D0B381263}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\Users\fluri\Downloads\MicrosoftTeams-image (1).png = ..\..\Users\fluri\Downloads\MicrosoftTeams-image (1).png
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K2", "K2", "{CCC30165-C891-4F76-9874-5B32C5219553}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\Users\fluri\Downloads\MicrosoftTeams-image (2).png = ..\..\Users\fluri\Downloads\MicrosoftTeams-image (2).png
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kompetenzen", "Kompetenzen\Kompetenzen.csproj", "{5FB46589-F5E2-4FE4-B2BD-DE4202B375F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,17 +35,13 @@ Global
 		{1009A3EF-2C8A-49ED-B221-34AD9E75765E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1009A3EF-2C8A-49ED-B221-34AD9E75765E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1009A3EF-2C8A-49ED-B221-34AD9E75765E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB46589-F5E2-4FE4-B2BD-DE4202B375F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB46589-F5E2-4FE4-B2BD-DE4202B375F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB46589-F5E2-4FE4-B2BD-DE4202B375F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB46589-F5E2-4FE4-B2BD-DE4202B375F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{D69DD5C0-D218-4C6A-AC75-0F43333F1B95} = {254B1B3F-BC65-47ED-8FC3-76D5513E694E}
-		{80063D33-F33B-4F5D-A396-865290F984D0} = {254B1B3F-BC65-47ED-8FC3-76D5513E694E}
-		{085E5256-F4CA-4F73-A071-46ACF36652BF} = {254B1B3F-BC65-47ED-8FC3-76D5513E694E}
-		{C91DF4A3-6CBD-4E0A-853E-E81766ECDFC8} = {254B1B3F-BC65-47ED-8FC3-76D5513E694E}
-		{33140A4E-CEC7-454C-AA99-B86D0B381263} = {80063D33-F33B-4F5D-A396-865290F984D0}
-		{CCC30165-C891-4F76-9874-5B32C5219553} = {80063D33-F33B-4F5D-A396-865290F984D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A88BB3E7-7642-440F-9608-BF73364E9DFB}
