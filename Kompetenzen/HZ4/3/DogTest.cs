@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Kompetenzen.HZ4._2;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Kompetenzen.HZ4._3
 {
@@ -13,18 +15,10 @@ namespace Kompetenzen.HZ4._3
         [TestMethod]
         public void TestHasBittenOwner()
         {
-            Dog dog = new Dog();
+            Person josh = new Person();
+            josh.Pet = new AnimalStub();
 
-            var personStub = new Mock<Person>();
-            personStub
-                .Setup(p => p.HasBeenBitten())
-                .Returns(true);
-
-            dog.Owner = personStub.Object;
-
-            dog.BiteOwner();
-
-            Assert
+            Assert.Equals(josh.IsHappy, false);
         }
     }
 }

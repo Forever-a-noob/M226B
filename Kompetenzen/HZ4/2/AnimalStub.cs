@@ -10,7 +10,7 @@ namespace Kompetenzen.HZ4._2
     {
         public bool IsAlive()
         {
-            return true;
+            return false;
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Kompetenzen.HZ4._2;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,16 +9,19 @@ namespace Kompetenzen.HZ4._3
 {
     class Person
     {
-        public bool IsHurt { get; set; }
-
-        public void GetBitten()
-        {
-            IsHurt = true;
-        }
-
-        public bool HasBeenBitten()
-        {
-            return IsHurt;
+        public IAnimal Pet{ get; set; }
+        public bool IsHappy 
+        { 
+            get 
+            { 
+                if (Pet.IsAlive())
+                {
+                    return true;
+                } else
+                {
+                    return false;
+                }
+            }
         }
     }
 }
