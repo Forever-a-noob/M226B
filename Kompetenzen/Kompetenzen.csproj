@@ -10,4 +10,8 @@
     <Folder Include="HZ2\3\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.16.1" />
+  </ItemGroup>
+
 </Project>
