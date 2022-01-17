@@ -8,6 +8,7 @@
   <ItemGroup>
     <Folder Include="HZ2\1\" />
     <Folder Include="HZ2\3\" />
+    <Folder Include="HZ2\1\" />
   </ItemGroup>
 
   <ItemGroup>
