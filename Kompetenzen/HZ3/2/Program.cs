@@ -10,7 +10,14 @@ namespace Kompetenzen.HZ3._2
     {
         static void Main(string[] args)
         {
-            
+            Dog dog = new Dog();
+            Cat cat = new Cat();
+
+            dog.Grow();
+            cat.Grow();
+
+            Console.WriteLine($"The Dog is {dog.Size} big.");
+            Console.WriteLine($"But the Cat is only {cat.Size} big.");
         }
     }
 }
